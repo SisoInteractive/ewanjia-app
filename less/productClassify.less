@@ -244,12 +244,18 @@
 /* cart 购物车CSS */
 .myCart{
   .myCartBd{
+    /* cart null */
+    .Contcenter{
+      p{
+        line-height: .8rem;
+      }
+    }
     /* cart 我的赠品 CSS */
     .CartNo{
       width: 3.1111rem;
       margin: 0 auto;
       display: block;
-      padding: .6rem 0;
+      padding: 1.5rem 0 0.8rem 0;
     }
     .btnW100{
       padding: .15rem 0;
@@ -261,26 +267,85 @@
     }
     ul{
       .activeli{
-        background: url("../css/img/dagou.png") no-repeat #fff 0.666rem 2.2666rem !important;
-        -webkit-background-size: 0.9111rem !important;
-        background-size: 0.9111rem !important;
+        background: url("../css/img/dagou.png") no-repeat .22rem 1.05rem !important;
+        position: absolute;
+        width: 1.9rem;
+        height: 3rem;
+        -webkit-background-size: 0.9111rem!important;
+        background-size: 0.9111rem!important;
       }
 
+      .P_w{
+        position: relative;
+        overflow: hidden;
+        float: left;
+        .line{
+          display: block;
+          float: left;
+          height: .05rem;
+          width: 12.5rem;
+          margin-left: 1.531rem;
+          margin-top: -.2rem;
+          padding-bottom: .4rem;
+          margin-bottom: .5rem;
+          border-bottom: 1px solid #d1d1d1;
+        }
+      }
 
       .list{
         overflow: hidden;
-        padding: 0.711rem @unit20!important;
+        padding: 0.611rem @unit20 0.3rem @unit20!important;
         background: #fff;
-        background: url("../css/img/nogou.png") no-repeat #fff 0.666rem 2.2666rem;
-        -webkit-background-size: 0.9111rem;
-        background-size: 0.9111rem;
         position: relative;
+        .gifts{
+          margin-top: -.4rem;
+          padding-bottom: .15rem;
+          margin-left: 1.531rem;
+          .M_z{
+            background: #e14041;
+            border-radius: .2rem;
+            padding: 0.02rem .2rem;
+            color: #fff;
+            margin-right: .3rem;
+          }
+        }
+
+        .gifts_zp{
+          display: block;
+          float: left;
+          margin-top: .3rem;
+          width: 12.5rem;
+          margin-left: 1.531rem;
+          padding-bottom: .4rem;
+          margin-bottom: .5rem;
+          border-bottom: 1px solid #d1d1d1;
+          .M_z{
+            border: 1px solid #e14041;
+            color: #e14041;
+            float: left;
+            display: block;
+            height: .5rem;
+            line-height: .6rem;
+            border-radius: .2rem;
+            padding: 0.02rem .2rem;
+            margin-right: .3rem;
+          }
+          .P_name{
+            width: 10.45rem;
+            float: left;
+            display: block;
+            line-height: .65rem;
+          }
+        }
+
         .radio{
           position: absolute;
           width: 1.9rem;
           height: 3rem;
-          top:40%;
-          margin-top:-1.5rem ;
+          top: .5rem;
+          background: url("../css/img/nogou.png") no-repeat .22rem 1.05rem;
+          -webkit-background-size: 0.9111rem;
+          background-size: 0.9111rem;
         }
         .listL{
           width: 4.0555rem;
@@ -289,6 +354,52 @@
             width: 3.8444rem;
             height: 3.8444rem;
           }
+
+        }
+
+
+
+        /* 右边 */
+        .listR{
+          position: relative;
+          width:8.3rem;
+          margin-left: .3rem!important;
+          .gifts_head{
+            margin-top: .2rem;
+            margin-bottom: .1rem;
+            span{
+              border: 1px solid #e14041;
+              color: #e14041;
+              display:inline-block;
+              height: .5rem;
+              line-height: .6rem;
+              border-radius: .2rem;
+              padding: 0.02rem .2rem;
+              margin-right: .3rem;
+            }
+          }
+          .name{
+            overflow: hidden;
+            height: 1.35rem;
+            line-height: .71rem;
+          }
+          p{
+            line-height:0.55rem
+          }
+          .price{
+            font-size: 0.9555rem;
+            width: 100%;
+            position: relative;
+            .ml2{
+              margin-top: .3rem;
+            }
+          }
+          .sum{
+            display: block;
+            float: right;
+            margin-top: .35rem;
+          }
+
           .reduce img{
             width: 0.8444rem;
             vertical-align: middle;
@@ -299,62 +410,10 @@
           }
           .number{
             border-radius: 0;
-            width: 1.633rem;
+            width: 2.03rem;
             height: 1.066rem;
             text-align: center;
           }
-        }
-
-
-
-        /* 右边 */
-        .listR{
-          position: relative;
-          width:8.3rem;
-          margin-left: .3rem!important;
-          height: 5.1888rem;
-          .name{
-            overflow: hidden;
-            height: 1.4rem;
-            line-height: .7rem;
-          }
-          p{
-            line-height:0.55rem
-          }
-          .price{
-            font-size: 0.9555rem;
-            width: 100%;
-            position: relative;
-          }
-          .sum{
-            display: block;
-            float: right;
-            margin-top: .35rem;
-          }
-
-        .listRft{
-          position: absolute;
-          bottom:0;
-          span{
-            width: 4rem;
-            height: 1.2rem;
-            display: block;
-            float: left;
-
-            text-align: center;
-            line-height:1.2rem;
-            color: #333;
-            font-size: 0.4888rem;
-          }
-          .delete{
-            border-right: none;
-          }
-          .active{
-            background: #e24d4d;
-            border: #e24d4d 1px solid!important;
-            color: #fff!important;
-          }
-        }
 
         }
       }
@@ -1046,7 +1105,7 @@
 .themeBtn{
   margin-top: @unit40;
   a{
-    padding: 0.43rem 0 !important;
+    padding: 0.333rem 0 !important;
   }
 }
 /* themeInput 通用input*/
@@ -1960,5 +2019,27 @@
     margin: 0 auto;
   }
 }
-
+/* 购物车编辑模块 */
+.editor_m{
+  position: absolute;
+  background: #222;
+  right: 0px;
+  top: 2.133rem;
+  width: 3.9111rem;
+  opacity: 0.9;
+  .ewanjiaIcon{
+    margin-right: .2rem;
+    color: #fff;
+  }
+  p{
+    text-align: center;
+    height: 2.1777rem;
+    line-height: 2.1777rem;
+    color: #fff;
+    font-size: @unit28;
+  }
+  .borTop{
+    border-top: 1px solid #474747!important;
+  }
+}
  /* 2015/1/25 game over */

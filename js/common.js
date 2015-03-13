@@ -6,7 +6,7 @@ $(function(){
     var win_W = $(window).width();
 
     if(win_W>=364 && win_W<=375){
-        font=23;
+        font=24;
     }else{
 
         if(win_W==360 || win_W==361){

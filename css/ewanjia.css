@@ -405,12 +405,31 @@
   width: 2.022rem!important;
   padding-right: .3rem!important;
 }
+.W-nav .active_No {
+  border-left: 0px !important;
+}
+.W-nav .nav_R {
+  display: block;
+  float: right;
+  width: 2.6444rem;
+  border-left: 1px solid #ebebeb;
+  height: 2.1333rem;
+  text-align: center;
+}
+.W-nav .nav_R img {
+  vertical-align: middle;
+  width: 0.9111rem;
+  padding-top: .3rem;
+}
+.W-nav .nav_R .cart_E {
+  font-size: .52rem;
+}
 .W-nav .more {
   display: block;
   float: right;
   width: 2.6444rem;
   border-left: 1px solid #ebebeb;
-  height: 2rem;
+  height: 2.1333rem;
   line-height: 1.7rem;
   text-align: center;
 }
@@ -422,7 +441,7 @@
   float: right;
   width: 2.322rem;
   border-left: 1px solid #ebebeb;
-  height: 2rem;
+  height: 2.1333rem;
   line-height: 1.7rem;
   text-align: center;
   position: relative;
@@ -437,7 +456,7 @@
   float: right;
   width: 2.6444rem;
   border-left: 1px solid #ebebeb;
-  height: 2rem;
+  height: 2.1333rem;
   background: #e14041;
   line-height: 1.7rem;
   text-align: center;
@@ -451,7 +470,7 @@
 }
 .W-nav .renxin {
   width: 2.6444rem;
-  height: 2rem;
+  height: 2.1333rem;
   display: block;
   float: right;
 }
@@ -461,6 +480,16 @@
   float: left;
   margin-top: 0.622rem;
   margin-left: 0.288rem;
+}
+.W-nav .Nav-center {
+  position: absolute;
+  height: 2.1333rem;
+  display: block;
+  left: 50%;
+  margin-left: -1.777rem;
+  text-align: center;
+  line-height: 2.1333rem;
+  width: 3.555rem;
 }
 .W-nav .search {
   margin-left: 0.911rem;
@@ -506,7 +535,7 @@
   border-left: 1px solid #ebebeb;
   font-size: 0.57rem;
   padding-left: 0.54rem;
-  height: 2rem;
+  height: 2.1333rem;
   border-radius: 0;
   text-align: center;
 }
@@ -971,7 +1000,11 @@
   /* myCart ft*/
 }
 .myCart .myCartBd {
+  /* cart null */
   /* cart 我的赠品 CSS */
+}
+.myCart .myCartBd .Contcenter p {
+  line-height: .8rem;
 }
 .myCart .myCartBd .CartNo {
   width: 3.1111rem;
@@ -986,26 +1019,83 @@
   background: none;
 }
 .myCart .myCartBd ul .activeli {
-  background: url("../css/img/dagou.png") no-repeat #ffffff 0.666rem 2.2666rem !important;
-  -webkit-background-size: 0.9111rem !important;
-  background-size: 0.9111rem !important;
+  background: url("../css/img/dagou.png") no-repeat 0.22rem 1.05rem !important;
+  position: absolute;
+  width: 1.9rem;
+  height: 3rem;
+  -webkit-background-size: 0.9111rem!important;
+  background-size: 0.9111rem!important;
+}
+.myCart .myCartBd ul .P_w {
+  position: relative;
+  overflow: hidden;
+  float: left;
+}
+.myCart .myCartBd ul .P_w .line {
+  display: block;
+  float: left;
+  height: .05rem;
+  width: 12.5rem;
+  margin-left: 1.531rem;
+  margin-top: -0.2rem;
+  padding-bottom: .4rem;
+  margin-bottom: .5rem;
+  border-bottom: 1px solid #d1d1d1;
 }
 .myCart .myCartBd ul .list {
   overflow: hidden;
-  padding: 0.711rem 0.4444rem !important;
+  padding: 0.611rem 0.4444rem 0.3rem 0.4444rem !important;
   background: #fff;
-  background: url("../css/img/nogou.png") no-repeat #ffffff 0.666rem 2.2666rem;
-  -webkit-background-size: 0.9111rem;
-  background-size: 0.9111rem;
   position: relative;
   /* 右边 */
+}
+.myCart .myCartBd ul .list .gifts {
+  margin-top: -0.4rem;
+  padding-bottom: .15rem;
+  margin-left: 1.531rem;
+}
+.myCart .myCartBd ul .list .gifts .M_z {
+  background: #e14041;
+  border-radius: .2rem;
+  padding: 0.02rem .2rem;
+  color: #fff;
+  margin-right: .3rem;
+}
+.myCart .myCartBd ul .list .gifts_zp {
+  display: block;
+  float: left;
+  margin-top: .3rem;
+  width: 12.5rem;
+  margin-left: 1.531rem;
+  padding-bottom: .4rem;
+  margin-bottom: .5rem;
+  border-bottom: 1px solid #d1d1d1;
+}
+.myCart .myCartBd ul .list .gifts_zp .M_z {
+  border: 1px solid #e14041;
+  color: #e14041;
+  float: left;
+  display: block;
+  height: .5rem;
+  line-height: .6rem;
+  border-radius: .2rem;
+  padding: 0.02rem .2rem;
+  margin-right: .3rem;
+}
+.myCart .myCartBd ul .list .gifts_zp .P_name {
+  width: 10.45rem;
+  float: left;
+  display: block;
+  line-height: .65rem;
 }
 .myCart .myCartBd ul .list .radio {
   position: absolute;
   width: 1.9rem;
   height: 3rem;
-  top: 40%;
-  margin-top: -1.5rem;
+  top: .5rem;
+  background: url("../css/img/nogou.png") no-repeat 0.22rem 1.05rem;
+  -webkit-background-size: 0.9111rem;
+  background-size: 0.9111rem;
 }
 .myCart .myCartBd ul .list .listL {
   width: 4.0555rem;
@@ -1015,30 +1105,29 @@
   width: 3.8444rem;
   height: 3.8444rem;
 }
-.myCart .myCartBd ul .list .listL .reduce img {
-  width: 0.8444rem;
-  vertical-align: middle;
-}
-.myCart .myCartBd ul .list .listL .add img {
-  width: 0.8444rem;
-  vertical-align: middle;
-}
-.myCart .myCartBd ul .list .listL .number {
-  border-radius: 0;
-  width: 1.633rem;
-  height: 1.066rem;
-  text-align: center;
-}
 .myCart .myCartBd ul .list .listR {
   position: relative;
   width: 8.3rem;
   margin-left: .3rem!important;
-  height: 5.1888rem;
+}
+.myCart .myCartBd ul .list .listR .gifts_head {
+  margin-top: .2rem;
+  margin-bottom: .1rem;
+}
+.myCart .myCartBd ul .list .listR .gifts_head span {
+  border: 1px solid #e14041;
+  color: #e14041;
+  display: inline-block;
+  height: .5rem;
+  line-height: .6rem;
+  border-radius: .2rem;
+  padding: 0.02rem .2rem;
+  margin-right: .3rem;
 }
 .myCart .myCartBd ul .list .listR .name {
   overflow: hidden;
-  height: 1.4rem;
-  line-height: .7rem;
+  height: 1.35rem;
+  line-height: .71rem;
 }
 .myCart .myCartBd ul .list .listR p {
   line-height: 0.55rem;
@@ -1048,32 +1137,27 @@
   width: 100%;
   position: relative;
 }
+.myCart .myCartBd ul .list .listR .price .ml2 {
+  margin-top: .3rem;
+}
 .myCart .myCartBd ul .list .listR .sum {
   display: block;
   float: right;
   margin-top: .35rem;
 }
-.myCart .myCartBd ul .list .listR .listRft {
-  position: absolute;
-  bottom: 0;
+.myCart .myCartBd ul .list .listR .reduce img {
+  width: 0.8444rem;
+  vertical-align: middle;
 }
-.myCart .myCartBd ul .list .listR .listRft span {
-  width: 4rem;
-  height: 1.2rem;
-  display: block;
-  float: left;
+.myCart .myCartBd ul .list .listR .add img {
+  width: 0.8444rem;
+  vertical-align: middle;
+}
+.myCart .myCartBd ul .list .listR .number {
+  border-radius: 0;
+  width: 2.03rem;
+  height: 1.066rem;
   text-align: center;
-  line-height: 1.2rem;
-  color: #333;
-  font-size: 0.4888rem;
-}
-.myCart .myCartBd ul .list .listR .listRft .delete {
-  border-right: none;
-}
-.myCart .myCartBd ul .list .listR .listRft .active {
-  background: #e24d4d;
-  border: #e24d4d 1px solid!important;
-  color: #fff!important;
 }
 .myCart .myCartft {
   background: #fff;
@@ -2520,6 +2604,29 @@
   width: 2.8rem;
   margin: 0 auto;
 }
+/* 购物车编辑模块 */
+.editor_m {
+  position: absolute;
+  background: #222;
+  right: 0px;
+  top: 2.133rem;
+  width: 3.9111rem;
+  opacity: 0.9;
+}
+.editor_m .ewanjiaIcon {
+  margin-right: .2rem;
+  color: #fff;
+}
+.editor_m p {
+  text-align: center;
+  height: 2.1777rem;
+  line-height: 2.1777rem;
+  color: #fff;
+  font-size: 0.6222rem;
+}
+.editor_m .borTop {
+  border-top: 1px solid #474747!important;
+}
 
 /* productCont page */
 /* top nav */
@@ -2854,6 +2961,7 @@ nav,
 section {
   margin: 0;
   padding: 0;
+  font-family: "微软雅黑e\8f6f\96c5\9ed1";
 }
 /* 重设 HTML5 标签, IE 需要在 js 中 createElement(TAG) */
 article,
@@ -3368,7 +3476,7 @@ select {
   border-left: 1px solid #cb2829;
   border-right: 1px #cb2829 solid;
   color: #fff;
-  font-size: 0.8rem;
+  font-size: 0.9333rem;
 }
 .btnW100:active {
   color: #fff;
@@ -3512,6 +3620,9 @@ select {
 }
 .fz40 {
   font-size: 0.8888rem!important;
+}
+.fz42 {
+  font-size: 0.9333rem!important;
 }
 .fz50 {
   font-size: 1.1111rem!important;
