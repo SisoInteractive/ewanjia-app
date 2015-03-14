@@ -485,7 +485,7 @@
   }
   .sumOwing{
     div{
-      line-height: 1.1rem;
+      line-height: 0.8rem;
     }
     margin-top: .8rem;
   }
@@ -699,8 +699,15 @@
       padding-right: .6rem;
       border-right: 1px solid #E5E5E5;
       padding-bottom: 0.68rem;
+      .themeradio{
+        position: absolute;
+        top: 50%;
+        left: .222rem;
+        margin-top:-0.4655rem ;
+      }
       p{
         font-size: 0.6222rem;
+        margin-left: 1.55rem;
         color: #333;
         line-height: 1rem;
       }
@@ -898,6 +905,8 @@
   .ft{
     padding-top: .3rem;
     margin-top: .4rem;
+    margin-left: @unit30;
+    margin-right:@unit30;
     padding-bottom: .5rem;
   }
 
@@ -906,10 +915,11 @@
   .submit{
     margin-top: @unit42;
     a{
-      padding: 0.43rem 0 !important;
+      padding: 0.2rem 0 !important;
     }
     .btnWB{
       margin-top: @unit10 !important;
+      font-size: @unit42;
     }
   }
 }

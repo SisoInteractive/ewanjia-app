@@ -479,7 +479,7 @@
   display: block;
   float: left;
   margin-top: 0.622rem;
-  margin-left: 0.288rem;
+  margin-left: 0.222rem;
 }
 .W-nav .Nav-center {
   position: absolute;
@@ -1222,7 +1222,7 @@
   margin-top: .8rem;
 }
 .myOrder .sumOwing div {
-  line-height: 1.1rem;
+  line-height: 0.8rem;
 }
 .myOrder .OrderInfo .title {
   height: 1.666rem;
@@ -1240,6 +1240,9 @@
   background: url("../css/img/agoD.png") no-repeat;
   -webkit-background-size: 0.9555rem;
   background-size: 0.9555rem;
+}
+.myOrder .OrderInfo .goods {
+  padding-bottom: .1rem;
 }
 .myOrder .OrderInfo .invoice_C {
   padding-top: 0.4rem;
@@ -1276,6 +1279,44 @@
   width: 10.811rem;
   border: 1px solid #ededed;
   font-size: 0.6666rem;
+}
+.myOrder .OrderInfo .invoice_C .pagination_Order {
+  height: 1rem;
+}
+.myOrder .OrderInfo .invoice_C .order_goods {
+  position: relative;
+}
+.myOrder .OrderInfo .invoice_C .order_goods .shadow {
+  -moz-box-shadow: 0px 2px 1px #efefef!important;
+  -webkit-box-shadow: 0px 2px 1px #efefef!important;
+  box-shadow: 0px 2px 1px #efefef!important;
+}
+.myOrder .OrderInfo .invoice_C .order_goods .goods_list {
+  border: 1px solid #ededed;
+  width: 4.6222rem;
+  padding-bottom: .2rem;
+  float: left;
+  display: block;
+  margin-left: .4rem;
+}
+.myOrder .OrderInfo .invoice_C .order_goods .goods_img {
+  width: 4.6222rem;
+}
+.myOrder .OrderInfo .invoice_C .order_goods .goods_name {
+  padding: 0 .2rem 0 .2rem;
+  line-height: 0.7rem;
+  font-size: 0.5333rem;
+  height: 1.37rem;
+  overflow: hidden;
+  position: relative;
+}
+.myOrder .OrderInfo .invoice_C .order_goods .number {
+  position: absolute;
+  bottom: 0px;
+  color: #e14041;
+  right: 0.3rem;
+  background: #fff;
+  width: .7rem;
 }
 .myOrder .OrderInfo .integral_C {
   padding-top: .6rem;
@@ -1372,8 +1413,15 @@
   border-right: 1px solid #E5E5E5;
   padding-bottom: 0.68rem;
 }
+.myAddress .listHd .ListLeft .themeradio {
+  position: absolute;
+  top: 50%;
+  left: .222rem;
+  margin-top: -0.4655rem;
+}
 .myAddress .listHd .ListLeft p {
   font-size: 0.6222rem;
+  margin-left: 1.55rem;
   color: #333;
   line-height: 1rem;
 }
@@ -1550,16 +1598,19 @@
 .AccomplishCont .ft {
   padding-top: .3rem;
   margin-top: .4rem;
+  margin-left: 0.6666rem;
+  margin-right: 0.6666rem;
   padding-bottom: .5rem;
 }
 .Accomplish .submit {
   margin-top: 0.9333rem;
 }
 .Accomplish .submit a {
-  padding: 0.43rem 0 !important;
+  padding: 0.2rem 0 !important;
 }
 .Accomplish .submit .btnWB {
   margin-top: 0.2222rem !important;
+  font-size: 0.9333rem;
 }
 /* checkstand 收银台 */
 .checkstand .checkstandHd {
