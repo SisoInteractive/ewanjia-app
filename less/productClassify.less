@@ -497,16 +497,142 @@
       color: #aaa;
       border-bottom: 1px solid #ededed;
     }
+    .integral_t{
+      float: right;
+      width: 0.9755rem;
+      height: 0.6333rem;
+      margin-top: .7rem;
+      margin-right: .05rem;
+      display: block;
+      background: url("../css/img/agoD.png") no-repeat;
+      -webkit-background-size:0.9555rem;
+      background-size:0.9555rem;
+    }
+    .goods{
+      padding-bottom: .1rem;
+    }
+    .invoice_C{
+      padding-top: 0.4rem;
+      .themeradio{
+        vertical-align: middle;
+        position: relative;top: -.1rem;
+        margin-right: .5rem;
+      }
+      .P_one{
+        line-height: 1.2rem;
+        padding-bottom: .3rem;
+      }
+      .P_two{  padding-top: .3rem;  }
+      .P_three{
+        padding-left: 2.33rem;
+        textarea{
+          width: 10.711rem;
+          vertical-align: top;
+          height: 3rem;
+          border: 1px solid #ededed;
+          font-size: @unit30;
+          -webkit-appearance:none!important;
+        }
+      }
+      .P_four{
+        padding-left: 2.33rem;
+        padding-bottom: 1rem;
+        select{
+          width: 10.811rem;
+          border: 1px solid #ededed;
+          font-size: @unit30;
+        }
+      }
+
+      .pagination_Order{
+        height: 1rem;
+      }
+      .order_goods{
+        position: relative;
+        .shadow{
+          -moz-box-shadow: 0px 2px 1px #efefef!important;
+          -webkit-box-shadow: 0px 2px 1px #efefef!important;
+          box-shadow: 0px 2px 1px #efefef!important;
+        }
+
+        .goods_list{
+          border: 1px solid #ededed;
+          width: 4.6222rem;
+          padding-bottom: .2rem;
+          float: left;
+          display: block;
+          margin-left: .4rem;
+        }
+        .goods_list:nth-child(1){
+        }
+        .goods_img{
+          width: 4.6222rem;
+        }
+        .goods_name{
+          padding: 0 .2rem 0 .2rem;
+          line-height: 0.7rem;
+          font-size: @unit24;
+          height: 1.37rem;
+          overflow: hidden;
+          position: relative;
+        }
+        .number{
+          position: absolute;
+          bottom: 0px;
+          color: #e14041;
+          right: 0.3rem;
+          background: #fff;
+          width: .7rem;
+        }
+      }
+
+    }
+    .integral_C{
+      padding-top: .6rem;
+      padding-bottom: .6rem;
+
+      .input{
+        width: 4.2666rem;
+        border: 1px solid #d7d7d7;
+        padding-left: .1rem;
+        text-align: center;
+        color: #aaa;
+        font-size: @unit30;
+      }
+      .sum{
+        display: block;
+        float: right;
+        margin-top: .35rem;
+      }
+
+      .reduce img{
+        width: 0.9444rem;
+        vertical-align: middle;
+      }
+      .add img{
+        width: 0.9444rem;
+        vertical-align: middle;
+      }
+      .number{
+        border-radius: 0;
+        width: 2.03rem;
+        margin: 0 .06rem;
+        height: 1.066rem;
+        text-align: center;
+      }
+
+    }
     .cont{
       color: #333;
+
       padding-top: .8rem;
       padding-bottom: .8rem;
       position: relative;
-      background: url("../css/img/ago.png") no-repeat 95% center;
-      -webkit-background-size:0.8666rem;
-      background-size:0.8666rem;
+      background: url("../css/img/agoL.png") no-repeat 95% center;
+      -webkit-background-size:0.5666rem;
+      background-size:0.5666rem;
       p{
-        width: 13rem;
+
       }
       .phone{
         padding-left: 1rem;
@@ -1628,8 +1754,8 @@
 
 /* theme radio */
 .themeradio{
-  width:0.9111rem;
-  height: 0.9111rem;
+  width:0.9311rem;
+  height: 0.9311rem;
   display: inline-block;
   background:url("../css/img/nogou.png") no-repeat;
   -webkit-background-size: 0.9111rem;
@@ -1637,8 +1763,8 @@
   border: none !important;
 }
 .themeradio:checked {
-  width:0.9111rem;
-  height: 0.9111rem;
+  width:0.9311rem;
+  height: 0.9311rem;
   display: inline-block;
   background:url("../css/img/dagou.png") no-repeat;
   -webkit-background-size: 0.9111rem;
@@ -1956,8 +2082,14 @@
   }
   .list{
     background: #fff;
-    padding: .5rem @unit30;
+    position: relative;
+    padding: .9rem @unit30 .5rem 2.111rem;
     border-bottom: 1px #ededed solid;
+    .themeradio{
+      position: absolute;
+      left: .7rem;
+      top: 2rem;
+    }
     p{
       line-height: .8rem;
       margin-top: .1rem;

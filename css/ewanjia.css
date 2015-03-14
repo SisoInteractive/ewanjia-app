@@ -485,11 +485,10 @@
   position: absolute;
   height: 2.1333rem;
   display: block;
-  left: 50%;
-  margin-left: -1.777rem;
+  width: 99%;
+  margin-left: -0.377rem;
   text-align: center;
   line-height: 2.1333rem;
-  width: 3.555rem;
 }
 .W-nav .search {
   margin-left: 0.911rem;
@@ -1010,7 +1009,7 @@
   width: 3.1111rem;
   margin: 0 auto;
   display: block;
-  padding: .6rem 0;
+  padding: 1.5rem 0 0.8rem 0;
 }
 .myCart .myCartBd .btnW100 {
   padding: .15rem 0;
@@ -1231,17 +1230,93 @@
   color: #aaa;
   border-bottom: 1px solid #ededed;
 }
+.myOrder .OrderInfo .integral_t {
+  float: right;
+  width: 0.9755rem;
+  height: 0.6333rem;
+  margin-top: .7rem;
+  margin-right: .05rem;
+  display: block;
+  background: url("../css/img/agoD.png") no-repeat;
+  -webkit-background-size: 0.9555rem;
+  background-size: 0.9555rem;
+}
+.myOrder .OrderInfo .invoice_C {
+  padding-top: 0.4rem;
+}
+.myOrder .OrderInfo .invoice_C .themeradio {
+  vertical-align: middle;
+  position: relative;
+  top: -0.1rem;
+  margin-right: .5rem;
+}
+.myOrder .OrderInfo .invoice_C .P_one {
+  line-height: 1.2rem;
+  padding-bottom: .3rem;
+}
+.myOrder .OrderInfo .invoice_C .P_two {
+  padding-top: .3rem;
+}
+.myOrder .OrderInfo .invoice_C .P_three {
+  padding-left: 2.33rem;
+}
+.myOrder .OrderInfo .invoice_C .P_three textarea {
+  width: 10.711rem;
+  vertical-align: top;
+  height: 3rem;
+  border: 1px solid #ededed;
+  font-size: 0.6666rem;
+  -webkit-appearance: none!important;
+}
+.myOrder .OrderInfo .invoice_C .P_four {
+  padding-left: 2.33rem;
+  padding-bottom: 1rem;
+}
+.myOrder .OrderInfo .invoice_C .P_four select {
+  width: 10.811rem;
+  border: 1px solid #ededed;
+  font-size: 0.6666rem;
+}
+.myOrder .OrderInfo .integral_C {
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+}
+.myOrder .OrderInfo .integral_C .input {
+  width: 4.2666rem;
+  border: 1px solid #d7d7d7;
+  padding-left: .1rem;
+  text-align: center;
+  color: #aaa;
+  font-size: 0.6666rem;
+}
+.myOrder .OrderInfo .integral_C .sum {
+  display: block;
+  float: right;
+  margin-top: .35rem;
+}
+.myOrder .OrderInfo .integral_C .reduce img {
+  width: 0.9444rem;
+  vertical-align: middle;
+}
+.myOrder .OrderInfo .integral_C .add img {
+  width: 0.9444rem;
+  vertical-align: middle;
+}
+.myOrder .OrderInfo .integral_C .number {
+  border-radius: 0;
+  width: 2.03rem;
+  margin: 0 .06rem;
+  height: 1.066rem;
+  text-align: center;
+}
 .myOrder .OrderInfo .cont {
   color: #333;
   padding-top: .8rem;
   padding-bottom: .8rem;
   position: relative;
-  background: url("../css/img/ago.png") no-repeat 95% center;
-  -webkit-background-size: 0.8666rem;
-  background-size: 0.8666rem;
-}
-.myOrder .OrderInfo .cont p {
-  width: 13rem;
+  background: url("../css/img/agoL.png") no-repeat 95% center;
+  -webkit-background-size: 0.5666rem;
+  background-size: 0.5666rem;
 }
 .myOrder .OrderInfo .cont .phone {
   padding-left: 1rem;
@@ -1781,7 +1856,7 @@
   margin-top: 0.8888rem;
 }
 .themeBtn a {
-  padding: 0.43rem 0 !important;
+  padding: 0.333rem 0 !important;
 }
 /* themeInput 通用input*/
 .themeInput input {
@@ -2246,8 +2321,8 @@
 }
 /* theme radio */
 .themeradio {
-  width: 0.9111rem;
-  height: 0.9111rem;
+  width: 0.9311rem;
+  height: 0.9311rem;
   display: inline-block;
   background: url("../css/img/nogou.png") no-repeat;
   -webkit-background-size: 0.9111rem;
@@ -2255,8 +2330,8 @@
   border: none !important;
 }
 .themeradio:checked {
-  width: 0.9111rem;
-  height: 0.9111rem;
+  width: 0.9311rem;
+  height: 0.9311rem;
   display: inline-block;
   background: url("../css/img/dagou.png") no-repeat;
   -webkit-background-size: 0.9111rem;
@@ -2553,8 +2628,14 @@
 }
 .Coupons .list {
   background: #fff;
-  padding: 0.5rem 0.6666rem;
+  position: relative;
+  padding: 0.9rem 0.6666rem 0.5rem 2.111rem;
   border-bottom: 1px #ededed solid;
+}
+.Coupons .list .themeradio {
+  position: absolute;
+  left: .7rem;
+  top: 2rem;
 }
 .Coupons .list p {
   line-height: .8rem;
@@ -3425,9 +3506,9 @@ select {
 }
 /* 基类样式 shadow */
 .shadow {
-  -moz-box-shadow: 0px 2px 2px #e7e7e7;
-  -webkit-box-shadow: 0px 2px 2px #e7e7e7;
-  box-shadow: 0px 2px 2px #e7e7e7;
+  -moz-box-shadow: 0px 2px 4px #C2BEC1;
+  -webkit-box-shadow: 0px 2px 4px #C2BEC1;
+  box-shadow: 0px 2px 4px #C2BEC1;
 }
 .top1 {
   position: relative;
