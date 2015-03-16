@@ -1585,6 +1585,12 @@
   color: #333!important;
   padding-left: .16rem;
 }
+.AccomplishCont .address {
+  width: 11.5rem;
+}
+.AccomplishCont .clearfix {
+  line-height: .9rem;
+}
 .AccomplishCont .p1 {
   color: #78b135;
 }
@@ -2393,6 +2399,12 @@
 .security-center {
   /* bd */
 }
+.security-center .hd {
+  background: #fff;
+}
+.security-center .hd .high {
+  color: #77b136!important;
+}
 .security-center .hd .tiao {
   width: 10.155rem;
   height: 0.2rem;
@@ -2419,22 +2431,56 @@
   border-top: 1px solid #dedede;
   padding: .3rem 0;
   margin-top: .6rem;
+  line-height: .9rem;
 }
 .security-center .bd {
   background: #fff;
 }
 .security-center .bd .list {
   font-size: 0.6666rem;
-  padding: 0.6rem 0.6666rem;
-  padding-left: 2.177rem;
+  padding: 0.8rem 0.6666rem;
+  padding-left: 2.377rem;
+  vertical-align: middle;
   border-bottom: 1px solid #f2f2f2;
 }
 .security-center .bd .list span {
   font-size: 0.4888rem;
   color: #aaa;
 }
+.security-center .bd .list .leftW {
+  height: 1.6rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  display: -o-box;
+  -o-box-orient: horizontal;
+  -o-box-pack: center;
+  -o-box-align: center;
+  display: -ms-box;
+  -ms-box-orient: horizontal;
+  -ms-box-pack: center;
+  -ms-box-align: center;
+  display: box;
+  box-orient: horizontal;
+  box-pack: center;
+  box-align: center;
+}
+.security-center .bd .list .leftW .fz30 {
+  color: #999;
+}
+.security-center .bd .list .fl-l p {
+  line-height: .8rem;
+}
+.security-center .bd .list .fl-l .p2 {
+  color: #999;
+}
 .security-center .bd .list i {
-  padding-left: .2rem;
+  padding-left: .4rem;
 }
 .security-center .password {
   background: url("../css/img/passwordIcon.png") no-repeat 1rem center;
@@ -3755,6 +3801,9 @@ select {
 }
 .fz42 {
   font-size: 0.9333rem!important;
+}
+.fz48 {
+  font-size: 1.0666rem!important;
 }
 .fz50 {
   font-size: 1.1111rem!important;
