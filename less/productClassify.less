@@ -71,6 +71,13 @@
 
 /* 商品的主题 theme */
 .PTheme{
+  .shadow{
+    -moz-box-shadow: 0px 1px 2px #d4d4d4;
+    -webkit-box-shadow: 0px 1px 2px #d4d4d4;
+    box-shadow: 0px 1px 2px #d4d4d4;
+    position: relative;
+    z-index: 2;
+  }
   .themeNav{
     ul{
       display: -webkit-box;
@@ -1772,21 +1779,21 @@
 
 /* theme radio */
 .themeradio{
-  width:0.9311rem;
-  height: 0.9311rem;
+  width:0.9511rem;
+  height: 0.9511rem;
   display: inline-block;
   background:url("../css/img/nogou.png") no-repeat;
-  -webkit-background-size: 0.9111rem;
-  background-size:0.9111rem ;
+  -webkit-background-size: 0.9311rem;
+  background-size:0.9311rem ;
   border: none !important;
 }
 .themeradio:checked {
-  width:0.9311rem;
-  height: 0.9311rem;
+  width:0.9511rem;
+  height: 0.9511rem;
   display: inline-block;
   background:url("../css/img/dagou.png") no-repeat;
-  -webkit-background-size: 0.9111rem;
-  background-size:0.9111rem ;
+  -webkit-background-size: 0.9311rem;
+  background-size:0.9311rem ;
   border: none !important;
 }
 
@@ -1906,6 +1913,15 @@
     background: #fff;
     padding: 0 @unit30 0 2rem;
     position: relative;
+  }
+  .myevaluate_null{
+    padding-top: 1.7rem;
+    img{
+      width: 3rem;
+    }
+  }
+  .null_text{
+    line-height: .8rem;
   }
   .themeradio{
     position: absolute;
@@ -2241,5 +2257,18 @@
   .borTop{
     border-top: 1px solid #474747!important;
   }
+}
+
+/* 搜索列表新 */
+.Search{
+  li{
+    padding: 0.555rem 0.444rem 0.555rem 0.922rem!important;
+  }
+  .searchBtn{
+    height: 1.444rem!important;
+    width: 1.444rem!important;
+
+  }
+
 }
  /* 2015/1/25 game over */

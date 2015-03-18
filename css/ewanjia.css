@@ -2,6 +2,7 @@
 /* top nav */
 #SearchP .W-nav {
   background: url("../css/img/navBg.png");
+  height: 2.133rem!important;
 }
 #SearchP .W-nav .upBtn {
   width: 0.488rem;
@@ -12,16 +13,16 @@
 }
 #SearchP .W-nav .search {
   margin-left: 0.911rem;
-  margin-top: 0.42rem;
+  margin-top: 0.32rem;
   display: block;
   float: left;
 }
 #SearchP .W-nav .search .searchInput {
   border: 1px solid #ccc;
   border-radius: 0;
-  height: 1.11rem;
   text-indent: .2rem;
-  width: 9.222rem;
+  width: 11.3rem!important;
+  height: 1.444rem!important;
   vertical-align: middle;
   display: block;
   float: left;
@@ -36,8 +37,8 @@
   position: relative;
   display: block;
   float: left;
-  width: 1.11rem;
-  height: 1.11rem;
+  width: 1.444rem;
+  height: 1.444rem;
   vertical-align: middle;
 }
 #SearchP .W-nav .more {
@@ -57,6 +58,8 @@
   -moz-box-shadow: 1px 2px 2px #e7e7e7;
   -webkit-box-shadow: 1px 2px 2px #e7e7e7;
   box-shadow: 1px 2px 2px #e7e7e7;
+  position: relative;
+  z-index: 3;
 }
 .Snav ul {
   display: -webkit-box;
@@ -87,23 +90,37 @@
 .Snav ul .active i {
   color: #fff!important;
 }
+/* Living 持家有道 */
+.Living li {
+  padding: 0.555rem 0.444rem 0.555rem 0.914rem!important;
+  position: relative;
+}
 /* Search list */
 .SearchListP {
   background: #fff;
 }
 .SearchListP li {
-  padding: 0.555rem 0.444rem;
+  padding: 0.555rem 0.444rem 0.555rem 2rem;
   position: relative;
+}
+.SearchListP .themeradio {
+  position: absolute;
+  left: .5rem;
+  top: 50%;
+  margin-top: -0.4666rem;
 }
 .SearchListP .name {
   margin-top: .2rem;
-  width: 10rem;
+  width: 8.7rem;
+  height: 1.53rem;
+  overflow: hidden;
+  line-height: .8rem;
 }
 .SearchListP p {
   line-height: .7rem;
 }
 .SearchListP .Pimg {
-  width: 3.955rem;
+  width: 3.5111rem;
   /*height: 3.505rem;*/
 }
 .SearchListP .titleTiny {
@@ -111,12 +128,13 @@
 }
 .SearchListP .label span {
   font-size: 0.355rem;
-  padding: 0rem .1rem;
+  padding: 0.05rem .2rem;
   color: #fff;
+  margin-top: .1rem;
   margin-right: .2rem;
   -webkit-border-radius: .3rem;
   border-radius: .3rem;
-  line-height: .2rem;
+  line-height: .18rem;
 }
 .SearchListP .price {
   font-size: 0.933rem;
@@ -832,6 +850,13 @@
 /* 商品的主题 theme */
 .PTheme {
   /* theme cont */
+}
+.PTheme .shadow {
+  -moz-box-shadow: 0px 1px 2px #d4d4d4;
+  -webkit-box-shadow: 0px 1px 2px #d4d4d4;
+  box-shadow: 0px 1px 2px #d4d4d4;
+  position: relative;
+  z-index: 2;
 }
 .PTheme .themeNav ul {
   display: -webkit-box;
@@ -2379,21 +2404,21 @@
 }
 /* theme radio */
 .themeradio {
-  width: 0.9311rem;
-  height: 0.9311rem;
+  width: 0.9511rem;
+  height: 0.9511rem;
   display: inline-block;
   background: url("../css/img/nogou.png") no-repeat;
-  -webkit-background-size: 0.9111rem;
-  background-size: 0.9111rem ;
+  -webkit-background-size: 0.9311rem;
+  background-size: 0.9311rem ;
   border: none !important;
 }
 .themeradio:checked {
-  width: 0.9311rem;
-  height: 0.9311rem;
+  width: 0.9511rem;
+  height: 0.9511rem;
   display: inline-block;
   background: url("../css/img/dagou.png") no-repeat;
-  -webkit-background-size: 0.9111rem;
-  background-size: 0.9111rem ;
+  -webkit-background-size: 0.9311rem;
+  background-size: 0.9311rem ;
   border: none !important;
 }
 /*  */
@@ -2501,8 +2526,23 @@
 /* my evaluate */
 .myevaluate li {
   background: #fff;
-  padding: 0 0.6666rem;
+  padding: 0 0.6666rem 0 2rem;
   position: relative;
+}
+.myevaluate .myevaluate_null {
+  padding-top: 1.7rem;
+}
+.myevaluate .myevaluate_null img {
+  width: 3rem;
+}
+.myevaluate .null_text {
+  line-height: .8rem;
+}
+.myevaluate .themeradio {
+  position: absolute;
+  left: .6rem;
+  top: 50%;
+  margin-top: -0.46666rem;
 }
 .myevaluate .xinx {
   padding-top: .3rem;
@@ -2805,6 +2845,14 @@
 }
 .editor_m .borTop {
   border-top: 1px solid #474747!important;
+}
+/* 搜索列表新 */
+.Search li {
+  padding: 0.555rem 0.444rem 0.555rem 0.922rem!important;
+}
+.Search .searchBtn {
+  height: 1.444rem!important;
+  width: 1.444rem!important;
 }
 
 /* productCont page */
@@ -3595,7 +3643,7 @@ select {
 .BgGlable,
 .BgRlable {
   font-size: 0.355rem;
-  padding: .0rem .25rem;
+  padding: .2rem .25rem;
   color: #fff;
   margin-right: .1rem;
   -webkit-border-radius: .3rem;
@@ -3781,6 +3829,9 @@ select {
 }
 .fz24 {
   font-size: 0.5333rem!important;
+}
+.fz25 {
+  font-size: 0.5555rem!important;
 }
 .fz26 {
   font-size: 0.5777rem!important;

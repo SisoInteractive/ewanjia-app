@@ -7,6 +7,7 @@
 #SearchP{
   .W-nav{
     background:url("../css/img/navBg.png");
+    height: 2.133rem!important;
     .upBtn{
       width: 0.488rem;
       display: block;
@@ -16,15 +17,15 @@
     }
     .search{
       margin-left: 0.911rem;
-      margin-top: 0.42rem;
+      margin-top: 0.32rem;
       display: block;
       float: left;
       .searchInput{
         border: 1px solid #ccc;
         border-radius: 0;
-        height: 1.11rem;
         text-indent: .2rem;
-        width: 9.222rem;
+        width: 11.3rem!important;
+        height: 1.444rem!important;
         vertical-align: middle;
         display: block;
         float: left;
@@ -39,8 +40,8 @@
         position: relative;
         display: block;
         float: left;
-        width: 1.11rem;
-        height: 1.11rem;
+        width: 1.444rem;
+        height: 1.444rem;
         vertical-align: middle;
       }
     }
@@ -68,6 +69,8 @@
     -moz-box-shadow: 1px 2px 2px #e7e7e7;
     -webkit-box-shadow: 1px 2px 2px #e7e7e7;
     box-shadow: 1px 2px 2px #e7e7e7;
+    position: relative;
+    z-index: 3;
   }
   ul{
     display: -webkit-box;
@@ -98,7 +101,12 @@
   }
 
 }
-
+/* Living 持家有道 */
+.Living{
+  li{ padding: 0.555rem 0.444rem 0.555rem 0.914rem!important;
+    position: relative;
+  }
+}
 /* Search list */
 .SearchListP{
   background: #fff;
@@ -111,10 +119,15 @@
     top: 50%;
     margin-top: -0.4666rem;
   }
-  .name{ margin-top: .2rem;width: 8.7rem;}
+  .name{
+    margin-top: .2rem;width: 8.7rem;
+    height: 1.53rem;
+    overflow: hidden;
+    line-height:.8rem;
+  }
   p{ line-height: .7rem;}
   .Pimg{
-    width: 3.955rem;
+    width: 3.5111rem;
     /*height: 3.505rem;*/
   }
   .titleTiny{
@@ -123,12 +136,13 @@
   .label{
     span{
       font-size: 0.355rem;
-      padding: 0rem .1rem;
+      padding: 0.05rem .2rem;
       color: #fff;
+      margin-top: .1rem;
       margin-right: .2rem;
       -webkit-border-radius: .3rem;
       border-radius: .3rem;
-      line-height: .2rem;
+      line-height: .18rem;
     }
   }
   .price{
@@ -267,3 +281,4 @@
     }
   }
 }
+

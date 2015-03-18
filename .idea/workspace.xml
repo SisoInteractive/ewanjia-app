@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10dcafac-b937-4aeb-b5ba-9d44b4a280ab" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/SearchList.less" afterPath="$PROJECT_DIR$/less/SearchList.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/ewanjia.css" afterPath="$PROJECT_DIR$/css/ewanjia.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/productClassify.less" afterPath="$PROJECT_DIR$/less/productClassify.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/type.less" afterPath="$PROJECT_DIR$/less/type.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/我的收藏.html" afterPath="$PROJECT_DIR$/我的收藏.html" />
     </list>
     <ignored path="ewanjia-app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,63 +31,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="我的评价.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/我的评价.html">
+      <file leaf-file-name="持家有道.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/持家有道.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23076923" vertical-offset="1046" max-vertical-offset="1880">
-              <caret line="58" column="74" selection-start-line="58" selection-start-column="74" selection-end-line="58" selection-end-column="74" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="购物车.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/购物车.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="11.034483" vertical-offset="880" max-vertical-offset="3880">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            <state vertical-scroll-proportion="-5.3103447" vertical-offset="1326" max-vertical-offset="2340">
+              <caret line="74" column="55" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="type.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/type.less">
+      <file leaf-file-name="搜索列表2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/搜索列表2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.3148148" vertical-offset="10321" max-vertical-offset="11360">
-              <caret line="525" column="40" selection-start-line="525" selection-start-column="40" selection-end-line="525" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="订单结算.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/订单结算.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="11.034483" vertical-offset="740" max-vertical-offset="4160">
-              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="订单结算优惠卷.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/订单结算优惠卷.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.034483" vertical-offset="440" max-vertical-offset="1400">
-              <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="productClassify.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/productClassify.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.9761906" vertical-offset="37890" max-vertical-offset="45000">
-              <caret line="1907" column="23" selection-start-line="1907" selection-start-column="23" selection-end-line="1907" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.32388663" vertical-offset="1000" max-vertical-offset="2060">
+              <caret line="58" column="85" selection-start-line="58" selection-start-column="85" selection-end-line="58" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -91,8 +54,28 @@
       <file leaf-file-name="SearchList.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/SearchList.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2142856" vertical-offset="1930" max-vertical-offset="5480">
-              <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+            <state vertical-scroll-proportion="-2.7619047" vertical-offset="2348" max-vertical-offset="5800">
+              <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="我的收藏.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/我的收藏.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.896552" vertical-offset="826" max-vertical-offset="1820">
+              <caret line="60" column="57" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productClassify.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/productClassify.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-154.66667" vertical-offset="32188" max-vertical-offset="45580">
+              <caret line="2259" column="1" selection-start-line="2259" selection-start-column="1" selection-end-line="2259" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -101,18 +84,8 @@
       <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/index.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6190476" vertical-offset="8100" max-vertical-offset="9420">
+            <state vertical-scroll-proportion="0.0" vertical-offset="8100" max-vertical-offset="9420">
               <caret line="416" column="0" selection-start-line="416" selection-start-column="0" selection-end-line="416" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="订单提交.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/订单提交.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.7586207" vertical-offset="333" max-vertical-offset="1340">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -135,8 +108,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="120" />
-    <option name="y" value="26" />
+    <option name="x" value="176" />
+    <option name="y" value="32" />
     <option name="width" value="1264" />
     <option name="height" value="866" />
   </component>
@@ -226,13 +199,13 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.我的评价.html">
-    <configuration default="false" name="安全中心.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ewanjia-app/安全中心.html">
+  <component name="RunManager" selected="JavaScript Debug.搜索列表2.html">
+    <configuration default="false" name="商品主题.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ewanjia-app/商品主题.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="购物车.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ewanjia-app/购物车.html">
+    <configuration default="false" name="持家有道.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ewanjia-app/持家有道.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -242,24 +215,20 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="订单结算优惠卷.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ewanjia-app/订单结算优惠卷.html">
+    <configuration default="false" name="订单提交.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ewanjia-app/订单提交.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="我的评价.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ewanjia-app/我的评价.html">
+    <configuration default="false" name="搜索列表2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ewanjia-app/搜索列表2.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -267,6 +236,10 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -290,19 +263,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.安全中心.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.购物车.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.商品主题.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.持家有道.html" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.我的收藏.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.订单结算优惠卷.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.我的评价.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.订单提交.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.搜索列表2.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.我的评价.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.订单结算优惠卷.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.搜索列表2.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.持家有道.html" />
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.我的收藏.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.购物车.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.安全中心.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.订单提交.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.商品主题.html" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +293,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="120" y="26" width="1264" height="866" extended-state="0" />
+    <frame x="176" y="32" width="1264" height="866" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -337,11 +310,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -365,28 +338,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/less/productClassify.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="10369" max-vertical-offset="42720">
-          <caret line="535" column="28" selection-start-line="535" selection-start-column="28" selection-end-line="535" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/订单结算预付卡.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="520" max-vertical-offset="1320">
-          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/订单结算优惠卷.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="1400">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/购物车.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="327" max-vertical-offset="3880">
@@ -625,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/订单结算预付卡.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5172415" vertical-offset="580" max-vertical-offset="1320">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="39" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/订单提交2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48582995" vertical-offset="560" max-vertical-offset="1340">
@@ -650,7 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09664694" vertical-offset="551" max-vertical-offset="1260">
           <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,70 +601,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.206897" vertical-offset="440" max-vertical-offset="1540">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/订单提交.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.7586207" vertical-offset="333" max-vertical-offset="1340">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6190476" vertical-offset="8100" max-vertical-offset="9420">
+        <state vertical-scroll-proportion="0.0" vertical-offset="8100" max-vertical-offset="9420">
           <caret line="416" column="0" selection-start-line="416" selection-start-column="0" selection-end-line="416" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/SearchList.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2142856" vertical-offset="1930" max-vertical-offset="5480">
-          <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/订单结算优惠卷.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.034483" vertical-offset="440" max-vertical-offset="1400">
-          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/我的收藏.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1724138" vertical-offset="406" max-vertical-offset="1860">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="35" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/订单结算.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="11.034483" vertical-offset="740" max-vertical-offset="4160">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/productClassify.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9761906" vertical-offset="37890" max-vertical-offset="45000">
-          <caret line="1907" column="23" selection-start-line="1907" selection-start-column="23" selection-end-line="1907" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/type.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3148148" vertical-offset="10321" max-vertical-offset="11360">
-          <caret line="525" column="40" selection-start-line="525" selection-start-column="40" selection-end-line="525" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -730,17 +616,102 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="11.034483" vertical-offset="880" max-vertical-offset="3880">
           <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/我的评价null.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40092167" vertical-offset="686" max-vertical-offset="1220">
+          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/订单结算预付卡.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67061144" vertical-offset="620" max-vertical-offset="1320">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="50" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/我的评价.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23076923" vertical-offset="1046" max-vertical-offset="1880">
-          <caret line="58" column="74" selection-start-line="58" selection-start-column="74" selection-end-line="58" selection-end-column="74" />
+        <state vertical-scroll-proportion="0.20242915" vertical-offset="1040" max-vertical-offset="1880">
+          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="72" selection-end-column="25" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/订单结算优惠卷.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4733728" vertical-offset="540" max-vertical-offset="1400">
+          <caret line="39" column="53" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/type.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.833333" vertical-offset="7251" max-vertical-offset="11360">
+          <caret line="430" column="34" selection-start-line="430" selection-start-column="34" selection-end-line="430" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/我的收藏.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.896552" vertical-offset="826" max-vertical-offset="1820">
+          <caret line="60" column="57" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/订单结算.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.655172" vertical-offset="140" max-vertical-offset="4160">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="30" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/productClassify.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-154.66667" vertical-offset="32188" max-vertical-offset="45580">
+          <caret line="2259" column="1" selection-start-line="2259" selection-start-column="1" selection-end-line="2259" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/订单提交.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6055227" vertical-offset="333" max-vertical-offset="1340">
+          <caret line="32" column="0" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/持家有道.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3103447" vertical-offset="1326" max-vertical-offset="2340">
+          <caret line="74" column="55" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/SearchList.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7619047" vertical-offset="2348" max-vertical-offset="5800">
+          <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/搜索列表2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32388663" vertical-offset="1000" max-vertical-offset="2060">
+          <caret line="58" column="85" selection-start-line="58" selection-start-column="85" selection-end-line="58" selection-end-column="85" />
+          <folding />
         </state>
       </provider>
     </entry>
