@@ -600,7 +600,7 @@
   position: relative;
 }
 .productClass .ClassHd {
-  padding: 0 0.377rem;
+  padding: 0;
   background: #fff;
 }
 .productClass .ClassHd i {
@@ -2887,7 +2887,6 @@
   width: 0.777rem;
 }
 .produnctWrap {
-  padding-bottom: 1rem!important;
   background: #fff;
 }
 .produnctWrap .slide-banner .swiper-slide img {
@@ -2908,6 +2907,7 @@
 .ContHd .Pft .PriceHd {
   position: relative;
   top: -0.2rem;
+  padding-right: .2rem;
 }
 .ContHd .Pft .price {
   font-size: 1.3777rem;
@@ -2941,6 +2941,12 @@
   display: block;
   padding: 0 .1rem;
 }
+.ContBdR .title {
+  font-size: 0.5333rem;
+  padding-right: .2rem;
+  padding-left: .2rem;
+  margin-top: 1px;
+}
 .ContBdR input {
   vertical-align: middle;
 }
@@ -2955,7 +2961,7 @@
   top: -0.05rem;
 }
 .ContBdR .ts {
-  width: 13rem;
+  width: 12.2rem;
   margin-left: 0.1rem;
 }
 .ContBdR .sumKz {
@@ -3004,8 +3010,11 @@
 }
 /* ContFt */
 .ContFt {
-  background: #fff;
+  background: #e6e6e6;
   position: relative;
+}
+.ContFt .ClassHd {
+  background: #e6e6e6!important;
 }
 .ContFt .ContFtXq {
   border-bottom: 1px #e04040 solid;
@@ -3018,8 +3027,8 @@
 .ContFt .ContFtXq li {
   width: 50%;
   text-align: center;
-  height: 0.9777rem;
-  line-height: 0.9777rem ;
+  height: 1.9777rem;
+  line-height: 1.9777rem ;
 }
 .ContFt .ContFtXq :active {
   font-size: 0.455rem!important;
@@ -3090,6 +3099,17 @@
 }
 .Mtuijian .two a img {
   display: block;
+  -moz-box-shadow: 0px 2px 4px #e0e0e0!important;
+  -webkit-box-shadow: 0px 2px 4px #e0e0e0!important;
+  box-shadow: 0px 2px 3px #e0e0e0!important;
+}
+.Mtuijian .two a .Pname {
+  line-height: 0.7rem!important;
+  height: 1.3rem!important;
+  overflow: hidden;
+}
+.Mtuijian .two a .price {
+  font-size: 0.8rem!important;
 }
 .Mtuijian .two .Classname {
   line-height: .6rem;
@@ -3110,17 +3130,52 @@
   z-index: 999;
   left: 0;
 }
+.ContFtNav .cartSum {
+  color: #fff;
+  width: 23%;
+  display: block;
+  background: -webkit-gradient(linear, center top, center bottom, from(#f5f5f5), to(#e8e8e8));
+  background: -webkit-linear-gradient(top, #f5f5f5, #e8e8e8);
+  border-top: #cbcbcb solid 1px;
+  border-bottom: #cbcbcb solid 1px;
+}
+.ContFtNav .cartSum p {
+  position: relative;
+  text-align: center;
+  line-height: 3rem;
+}
+.ContFtNav .cartSum p img {
+  margin-left: -0.1rem;
+}
+.ContFtNav .cartSum p .sum {
+  position: absolute;
+  background: #e04040;
+  border-radius: 100px;
+  width: .7rem;
+  height: .7rem;
+  line-height: .7rem;
+  display: block;
+  top: .3rem;
+  left: 2.05rem;
+  font-size: .4rem;
+}
 .ContFtNav .addcart {
-  width: 72.6389%;
+  width: 50%;
   text-align: center;
   background: #e04040;
   color: #fff;
-  border-top: #e35353 solid 1px;
   border-bottom: #bd1b1b solid 1px;
+  border-top: #e35353 solid 1px;
+}
+.ContFtNav .addcart img {
+  width: .8rem;
 }
 .ContFtNav .collect {
-  background: url("../css/img/navBg.png");
-  width: 27.3611%;
+  background: -webkit-gradient(linear, center top, center bottom, from(#ffffff), to(#f1f1f1));
+  background: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+  width: 27%;
+  border-top: #cbcbcb solid 1px!important;
+  border-bottom: #cbcbcb solid 1px!important;
   text-align: center;
   border-top: #e8e8e8 solid 1px;
   border-bottom: #f0f0f0 solid 1px;
@@ -3133,9 +3188,10 @@
   margin-right: .15rem;
 }
 .ContFtNav .collect,
-.ContFtNav .addcart {
-  height: 1.5111rem;
-  line-height: 1.5111rem;
+.ContFtNav .addcart,
+.ContFtNav .cartSum {
+  height: 2.1777rem;
+  line-height: 2.1777rem;
   display: block;
 }
 
@@ -3143,7 +3199,7 @@
 /* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
 html {
   color: #555;
-  background: #ededed;
+  background: #e6e6e6;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: none;
@@ -3643,7 +3699,7 @@ select {
 .BgGlable,
 .BgRlable {
   font-size: 0.355rem;
-  padding: .2rem .25rem;
+  padding: .1rem .25rem;
   color: #fff;
   margin-right: .1rem;
   -webkit-border-radius: .3rem;

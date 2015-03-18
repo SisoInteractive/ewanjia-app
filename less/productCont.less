@@ -35,7 +35,6 @@
 }
 
 .produnctWrap{
-  padding-bottom: 1rem!important;
   background: #fff;
   .slide-banner{
     .swiper-slide img{
@@ -55,6 +54,7 @@
     .PriceHd{
       position: relative;
       top: -0.2rem;
+      padding-right: .2rem;
     }
     padding: 0 0.222rem;
     .price{
@@ -93,6 +93,12 @@
   }
 }
 .ContBdR{
+  .title{
+    font-size: 0.5333rem;
+    padding-right: .2rem;
+    padding-left: .2rem;
+    margin-top: 1px;
+  }
   input{
     vertical-align: middle;
   }
@@ -107,7 +113,7 @@
     }
   }
   .ts{
-    width: 13rem;margin-left: 0.1rem;
+    width: 12.2rem;margin-left: 0.1rem;
   }
   .sumKz{
     position: relative;
@@ -161,17 +167,19 @@
 
 /* ContFt */
 .ContFt{
-  background: #fff;
+  background: #e6e6e6;
   position: relative;
-
+  .ClassHd{
+    background: #e6e6e6!important;
+  }
   .ContFtXq{
     border-bottom: 1px #e04040 solid;
     .goodImg{width: 0.5111rem;display: inline-block;margin-left: .2rem}
     li{
       width: 50%;
       text-align: center;
-      height: 0.9777rem;
-      line-height:0.9777rem ;
+      height: 1.9777rem;
+      line-height:1.9777rem ;
     }
     :active{
       font-size: 0.455rem!important;
@@ -250,10 +258,27 @@
 
       img{
         display: block;
+        -moz-box-shadow: 0px 2px 4px #e0e0e0!important;
+        -webkit-box-shadow: 0px 2px 4px #e0e0e0!important;
+        box-shadow: 0px 2px 3px #e0e0e0!important;
       }
+      .Pname{
+        line-height: 0.7rem!important;
+        height: 1.3rem!important;
+        overflow: hidden;
+      }
+
     }
     .Classname{
       line-height: .6rem;
+    }
+    .ClassBd{
+      .productUl{
+        img{
+
+        }
+      }
+
     }
     p{
       line-height: .7rem;
@@ -262,6 +287,9 @@
     .MtuijianFt{
       padding-top: .15rem!important;
       padding-bottom: .2rem!important;
+      .price{
+        font-size: 0.8rem!important;
+      }
     }
   }
 }
@@ -273,17 +301,54 @@
   bottom: 0;
   z-index: 999;
   left: 0;
+  .cartSum{
+
+    color: #fff;
+    width: 23%;
+    display: block;
+    background: -webkit-gradient(linear,center top,center bottom,from(#f5f5f5), to(#e8e8e8));
+    background:-webkit-linear-gradient(top,#f5f5f5,#e8e8e8);
+    border-top: #cbcbcb solid 1px;
+    border-bottom: #cbcbcb solid 1px;
+    p{
+      position: relative;
+      text-align: center;
+      line-height: 3rem;
+      img{
+        margin-left: -.1rem;
+      }
+      .sum{
+        position: absolute;
+        background: #e04040;
+        border-radius: 100px;
+        width: .7rem;
+        height: .7rem;
+        line-height: .7rem;
+        display: block;
+        top: .3rem;
+        left: 2.05rem;
+        font-size: .4rem;
+      }
+    }
+  }
   .addcart{
-    width: 72.6389%;
+    width: 50%;
     text-align: center;
     background: #e04040;
     color: #fff;
-    border-top: #e35353 solid 1px;
     border-bottom: #bd1b1b solid 1px;
+    border-top: #e35353 solid 1px;
+    img{
+      width: .8rem;
+
+    }
   }
   .collect{
-    background:url("../css/img/navBg.png");
-    width: 27.3611%;
+    background: -webkit-gradient(linear,center top,center bottom,from(#fff), to(#f1f1f1));
+    background:-webkit-linear-gradient(top,#fff,#f2f2f2);
+    width: 27%;
+    border-top: #cbcbcb solid 1px!important;
+    border-bottom: #cbcbcb solid 1px!important;
     text-align: center;
     img{
       width: 0.6888rem;
@@ -294,9 +359,9 @@
     border-top: #e8e8e8 solid 1px;
     border-bottom: #f0f0f0 solid 1px;
   }
-  .collect,.addcart{
-    height: 1.5111rem;
-    line-height: 1.5111rem;
+  .collect,.addcart,.cartSum{
+    height: 2.1777rem;
+    line-height: 2.1777rem;
     display: block;
   }
 
