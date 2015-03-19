@@ -98,6 +98,7 @@
 /* Search list */
 .SearchListP {
   background: #fff;
+  position: relative;
 }
 .SearchListP li {
   padding: 0.555rem 0.444rem 0.555rem 2rem;
@@ -271,6 +272,33 @@
 .filtrateMod .filtrateCont .listCont .active i {
   position: absolute;
   padding: 0 0.2rem 0 0.5rem;
+}
+/* search_sum */
+.search_sum {
+  position: fixed;
+  z-index: 999;
+  display: block;
+  bottom: .5rem;
+  color: #fff;
+  background: #000;
+  opacity: .7;
+  text-align: center;
+  left: 50%;
+  margin-left: -1.25rem;
+  width: 2.5rem;
+  height: .7rem;
+  line-height: .8rem;
+  border-radius: 1rem;
+}
+/* up_btn */
+.up_btn {
+  bottom: .4rem;
+  position: fixed;
+  right: .3rem;
+  z-index: 999;
+}
+.up_btn img {
+  width: 1.6333rem;
 }
 
 #productSearch {
@@ -2083,7 +2111,7 @@
 .myEwanjia .userInfo .UserOrder .Orderlist .list .hd {
   font-size: 0.5377rem;
   color: #777;
-  padding: .2rem 0;
+  padding: .5rem 0 .3rem 0;
 }
 .myEwanjia .userInfo .UserOrder .Orderlist .list .bd img {
   width: 2.177rem;
@@ -2095,21 +2123,27 @@
   color: #777;
 }
 .myEwanjia .userInfo .UserOrder .Orderlist .list .sum .Piece {
-  margin-top: .5rem;
+  margin-top: .3rem;
+  font-size: 0.6666rem;
 }
 .myEwanjia .userInfo .UserOrder .Orderlist .list .ft p {
   margin-top: .4rem;
-  font-size: 0.5333rem;
+  font-size: 0.6666rem;
   padding-bottom: .4rem;
 }
 .myEwanjia .userInfo .UserOrder .Orderlist .list .ft a {
   border: 1px solid #d4d4d4;
-  padding: 0.2rem 0rem;
   width: 3.111rem;
   display: inline-block;
   text-align: center;
   margin-left: .3rem;
-  font-size: 0.4888rem !important;
+  padding: .05rem 0;
+  font-size: 0.5377rem !important;
+}
+.myEwanjia .userInfo .UserOrder .Orderlist .list .ft .pay {
+  background: #e04040;
+  border: 1px solid #e04040;
+  color: #fff;
 }
 .myEwanjia .userInfo .UserOrder .Orderlist .list .ft .active {
   color: #c8c8c8!important;
@@ -2857,6 +2891,14 @@
 .Search .searchBtn {
   height: 1.444rem!important;
   width: 1.444rem!important;
+}
+/* down_btn 下拉更新*/
+.down_btn {
+  padding-bottom: .7rem;
+  line-height: 1rem;
+}
+.down_btn img {
+  width: 1.4222rem;
 }
 
 /* productCont page */
