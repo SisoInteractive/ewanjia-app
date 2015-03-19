@@ -1529,7 +1529,7 @@
   margin-top: 0.888rem;
 }
 .ModifyAddress .fapiao .Cont {
-  margin-left: 0.266rem!important;
+  margin-left: 0.366rem!important;
 }
 .ModifyAddress .fapiao .Cont input {
   border: none;
@@ -1555,7 +1555,7 @@
   line-height: 2.1555rem;
 }
 .ModifyAddress .ModifyCont li .Cont {
-  margin-left: 1.466rem;
+  margin-left: 1.266rem;
 }
 .ModifyAddress .ModifyCont li .Cont a {
   font-size: 0.666rem;
@@ -1707,7 +1707,7 @@
   margin-top: 0.9333rem;
 }
 .checkstand .submitOrder a {
-  padding: 0.43rem 0 !important;
+  padding: 0.37rem 0 !important;
 }
 /* register phone 手机注册 */
 .userRegister {
@@ -2163,29 +2163,35 @@
 }
 /* myEwanjiaOrder */
 .myEwanjiaOrder .OrderInfo {
-  font-size: 0.5377rem;
+  padding-bottom: 0.6666rem;
+  font-size: 0.6666rem;
+  background: #fff;
+  padding-top: .4rem;
 }
 .myEwanjiaOrder .OrderInfo p {
   line-height: .9rem;
+  margin-top: .2rem;
 }
 .myEwanjiaOrder .OrderInfo .btn {
   margin-top: 0.6666rem;
 }
 .myEwanjiaOrder .OrderInfo .btn a {
-  width: 50%;
-  float: left;
-  height: 1.555rem;
-  line-height: 1.555rem;
+  width: 48%;
+  float: right;
+  height: 1.855rem;
+  line-height: 1.855rem;
   text-align: center;
   display: inline-block;
-  background: #fff;
-}
-.myEwanjiaOrder .OrderInfo .btn .active {
   background: #e04040;
   color: #fff;
+  font-size: 0.8444rem;
+}
+.myEwanjiaOrder .OrderInfo .btn .active {
+  background: #e6e6e6;
+  color: #fff;
+  float: left;
 }
 .myEwanjiaOrder .ProductCont {
-  margin-top: 0.6666rem;
   background: #fff;
 }
 .myEwanjiaOrder .ProductCont img {
@@ -2197,6 +2203,10 @@
 }
 .myEwanjiaOrder .ProductCont li {
   padding: 0.6666rem 0;
+}
+.myEwanjiaOrder .ProductCont li .name {
+  font-size: 0.6666rem;
+  height: 1.7rem;
 }
 .myEwanjiaOrder .ProductCont li .cor999 {
   margin-top: 0!important;
@@ -2216,16 +2226,16 @@
   border: 1px #e04040 solid;
   height: 1.4666rem;
   line-height: 1.4666rem;
-  font-size: 0.5333rem;
+  font-size: 0.6666rem;
 }
 .myEwanjiaOrder .Zkmore p i {
-  font-size: 0.5333rem;
+  font-size: 0.6666rem;
   color: #e04040;
   margin-left: .3rem;
 }
 .myEwanjiaOrder .userInfo {
-  margin-top: 0.6666rem;
-  margin-bottom: 0.6666rem;
+  margin-top: 0.4444rem;
+  margin-bottom: 0.4444rem;
   background: #fff;
 }
 .myEwanjiaOrder .userInfo .ft {
@@ -2241,7 +2251,7 @@
   height: 1.5333rem;
   width: 4.977rem;
   display: inline-block;
-  font-size: 0.5377rem;
+  font-size: 0.6666rem;
   color: #6b6b6b;
   line-height: 1.5rem;
 }
@@ -2258,7 +2268,7 @@
   height: 1.5333rem;
   width: 8.666rem;
   display: inline-block;
-  font-size: 0.5377rem;
+  font-size: 0.6666rem;
   color: #6b6b6b;
   line-height: 1.5rem;
 }
@@ -2277,10 +2287,11 @@
   padding-right: 0.5333rem;
 }
 .myEwanjiaOrder .payment-terms {
-  padding: 0.6666rem;
+  padding: 0.6666rem 0;
   background: #fff;
 }
 .myEwanjiaOrder .payment-terms p {
+  padding: 0 0.6666rem;
   line-height: 1rem;
 }
 .myEwanjiaOrder .message {
@@ -2289,20 +2300,23 @@
   padding-bottom: 0.7555rem;
 }
 .myEwanjiaOrder .message h4 {
-  padding: 0.2222rem 0;
+  padding: 0.2222rem 0.6666rem;
   border-bottom: 1px solid #ededed;
   font-size: 0.6666rem;
 }
 .myEwanjiaOrder .message p {
   line-height: .6rem;
-  padding-top: 0.4444rem;
+  padding: 0.4444rem 0.6666rem 0 0.6666rem;
 }
 .myEwanjiaOrder .message p span {
   color: #333;
 }
 /* order Trace */
+.orderTrace {
+  background: #fff;
+}
 .orderTrace .orderTraceCont {
-  margin-top: 0.6666rem;
+  margin-top: -0.3rem;
   background: #fff;
 }
 .orderTrace .orderTraceCont h4 {
@@ -2314,11 +2328,11 @@
 }
 @-webkit-keyframes glow {
   0% {
-    border-color: #d5e6c1;
+    border-color: #e04040;
   }
   100% {
-    -webkit-box-shadow: 0 0 12px #bfdaa0, 0 0 18px #bfdaa0;
-    border-color: #bfdaa0;
+    -webkit-box-shadow: 0 0 12px #e04040, 0 0 18px #e04040;
+    border-color: #f0a5a5;
   }
 }
 .orderTrace .orderTraceCont .Contlist {
@@ -2328,7 +2342,7 @@
   /* list  */
 }
 .orderTrace .orderTraceCont .Contlist .first p {
-  color: #78b135;
+  color: #e04040;
 }
 .orderTrace .orderTraceCont .Contlist .first span {
   bottom: 0;
@@ -2337,10 +2351,10 @@
 .orderTrace .orderTraceCont .Contlist .first span i {
   width: 0.6222rem;
   height: 0.6222rem;
-  background: #78b135;
+  background: #e04040;
   left: -0.39rem;
   top: 0;
-  border: 0.0888rem solid #bfdaa0;
+  border: 0.0888rem solid #f0a5a5;
   border-radius: .5rem;
   -webkit-animation-name: glow;
   -webkit-animation-duration: 1s;
@@ -2701,6 +2715,9 @@
   background-size: 0.911rem !important;
 }
 /* 我的积分 Integral */
+.Integral {
+  background: #fff;
+}
 .Integral p {
   color: #555;
 }
@@ -2721,7 +2738,6 @@
   margin-right: .2rem;
 }
 .Integral .Integral-detail {
-  margin-top: 0.8888rem;
   background: #fff;
 }
 .Integral .Integral-detail li {
@@ -2730,20 +2746,22 @@
   border-bottom: 1px solid #e5e5e6;
 }
 .Integral .Integral-detail p {
-  font-size: 0.5333rem;
+  font-size: 0.6666rem;
   overflow: hidden;
   margin-top: .3rem;
 }
 .Integral .Integral-detail .value {
   color: #e14041;
-  font-size: 0.6666rem;
+  font-size: 0.9333rem;
 }
 .Integral .Integral-detail .span2 {
-  width: 11.22rem;
+  width: 10.52rem;
   text-align: right;
 }
 .Integral .Integral-detail .p3 {
   margin-top: .5rem;
+  color: #bfbfbf;
+  font-size: 0.5333rem;
 }
 .Right-nav {
   background: #fff;
@@ -2784,7 +2802,11 @@
 }
 /* My coupon */
 .Coupons .CouponsNav {
-  margin-bottom: 0.2222rem;
+  position: relative;
+  z-index: 2;
+  -moz-box-shadow: 0px 1px 2px #f6f6f6;
+  -webkit-box-shadow: 0px 1px 2px #f6f6f6;
+  box-shadow: 0px 2px 2px #f6f6f6;
 }
 .Coupons .CouponsNav ul {
   display: box;
@@ -2802,6 +2824,9 @@
 .Coupons .CouponsNav ul .active {
   background: #e04040;
   color: #fff;
+}
+.Coupons .pl30 {
+  padding-left: 0.6666rem !important;
 }
 .Coupons .list {
   background: #fff;
@@ -3976,5 +4001,8 @@ select {
 }
 .fz52 {
   font-size: 1.1555rem!important;
+}
+.fz60 {
+  font-size: 1.3333rem!important;
 }
 /*通用变量*/

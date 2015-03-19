@@ -16,6 +16,7 @@
 @unit32:0.7111rem;
 @unit34:0.7555rem;
 @unit36:0.8rem;
+@unit38:0.8444rem;
 @unit40:0.8888rem;
 @unit42:0.9333rem;
 @unit44:0.9777rem;
@@ -971,7 +972,7 @@
   .submitOrder{
     margin-top: @unit42;
     a{
-      padding: 0.43rem 0 !important;
+      padding: 0.37rem 0 !important;
     }
   }
 
@@ -1480,32 +1481,38 @@
 /* myEwanjiaOrder */
 .myEwanjiaOrder{
   .OrderInfo{
-    font-size: @unit26;
+    padding-bottom: @unit30;
+    font-size: @unit30;
+    background: #fff;
+    padding-top: .4rem;
     p{
       line-height: .9rem;
+      margin-top: .2rem;
     }
 
     .btn{
       margin-top: @unit30;
       a{
-        width: 50%;
-        float: left;
-        height: 1.555rem;
-        line-height: 1.555rem;
+        width: 48%;
+        float:right;
+        height: 1.855rem;
+        line-height: 1.855rem;
         text-align: center;
         display: inline-block;
-        background: #fff;
-      }
-      .active{
         background: #e04040;
         color: #fff;
+        font-size: @unit38;
+      }
+      .active{
+        background: #e6e6e6;
+        color: #fff;
+        float: left;
       }
     }
 
   }
 
   .ProductCont{
-    margin-top: @unit30;
     background: #fff;
     img{
       width:3.955rem;
@@ -1515,6 +1522,10 @@
       float: left;
     }
     li{
+      .name{
+        font-size: @unit30;
+        height: 1.7rem;
+      }
       padding: @unit30 0;
       .cor999{
         margin-top: 0!important;
@@ -1536,9 +1547,9 @@
       border: 1px #e04040 solid;
       height: 1.4666rem;
       line-height: 1.4666rem;
-      font-size: @unit24;
+      font-size: @unit30;
       i{
-        font-size: @unit24;
+        font-size: @unit30;
         color: #e04040;
         margin-left: .3rem;
 
@@ -1547,8 +1558,8 @@
   }
 
   .userInfo{
-    margin-top: @unit30;
-    margin-bottom: @unit30;
+    margin-top: @unit20;
+    margin-bottom: @unit20;
     background: #fff;
     .ft{
       padding-bottom: @unit24;
@@ -1563,7 +1574,7 @@
       height: 1.5333rem;
       width: 4.977rem;
       display: inline-block;
-      font-size: @unit26;
+      font-size: @unit30;
       color: #6b6b6b;
       line-height: 1.5rem;
       i{
@@ -1580,7 +1591,7 @@
       height: 1.5333rem;
       width: 8.666rem;
       display: inline-block;
-      font-size: @unit26;
+      font-size: @unit30;
       color: #6b6b6b;
       line-height: 1.5rem;
       i{
@@ -1601,9 +1612,10 @@
   }
   
   .payment-terms{
-    padding: @unit30;
+    padding: @unit30 0;
     background: #fff;
     p{
+      padding: 0 @unit30;
       line-height: 1rem;
     }
   }
@@ -1614,13 +1626,13 @@
 
     padding-bottom: @unit34;
     h4{
-      padding: @unit10 0;
+      padding: @unit10 @unit30;
       border-bottom: 1px solid #ededed;
       font-size: @unit30;
     }
     p{
       line-height: .6rem;
-      padding-top: @unit20;
+      padding : @unit20 @unit30 0 @unit30;
       span{
         color: #333;
       }
@@ -1631,9 +1643,9 @@
 
 /* order Trace */
 .orderTrace{
-
+  background: #fff;
   .orderTraceCont{
-    margin-top: @unit30;
+    margin-top: -.3rem;
     background: #fff;
     h4{
       font-size: @unit30;
@@ -1644,11 +1656,11 @@
     }
     @-webkit-keyframes glow {
       0% {
-        border-color: #d5e6c1;
+        border-color: #e04040;
       }
       100% {
-        -webkit-box-shadow: 0 0 12px #bfdaa0, 0 0 18px #bfdaa0;
-        border-color: #bfdaa0;
+        -webkit-box-shadow: 0 0 12px #e04040, 0 0 18px #e04040;
+        border-color: #f0a5a5;
       }
     }
     .Contlist{
@@ -1657,7 +1669,7 @@
       /* list fitsr */
       .first{
         p{
-          color:#78b135;
+          color:#e04040;
         }
         span{
           bottom: 0;
@@ -1665,10 +1677,10 @@
           i{
             width: 0.6222rem;
             height: 0.6222rem;
-            background: #78b135;
+            background: #e04040;
             left: -0.39rem;
             top: 0;
-            border: @unit4 solid #bfdaa0;
+            border: @unit4 solid  #f0a5a5;
             border-radius: .5rem;
             -webkit-animation-name: glow;
             -webkit-animation-duration: 1s;
@@ -2064,6 +2076,7 @@
 
 /* 我的积分 Integral */
  .Integral{
+   background: #fff;
    p{
      color: #555;
    }
@@ -2084,7 +2097,6 @@
    }
    
    .Integral-detail{
-     margin-top: @unit40;
      background: #fff;
      li{
        padding-top: .6rem;
@@ -2092,20 +2104,22 @@
        border-bottom: 1px solid #e5e5e6;
      }
      p{
-       font-size: @unit24;
+       font-size: @unit30;
        overflow: hidden;
        margin-top: .3rem;
      }
      .value{
        color: #e14041;
-       font-size: @unit30;
+       font-size: @unit42;
      }
      .span2{
-       width: 11.22rem;
+       width: 10.52rem;
        text-align: right;
      }
      .p3{
        margin-top: .5rem;
+       color: #bfbfbf;
+       font-size: @unit24;
      }
    }
  }
@@ -2152,7 +2166,10 @@
 
 .Coupons{
   .CouponsNav{
-    margin-bottom: @unit10;
+    position: relative;z-index: 2;
+    -moz-box-shadow: 0px 1px 2px #f6f6f6;
+    -webkit-box-shadow: 0px 1px 2px #f6f6f6;
+    box-shadow: 0px 2px 2px #f6f6f6;
     ul{
       display: box;
       display: -webkit-box;
@@ -2171,11 +2188,15 @@
     }
 
   }
+  .pl30{
+    padding-left: @unit30!important;
+  }
   .list{
     background: #fff;
     position: relative;
     padding: .9rem @unit30 .5rem 2.111rem;
     border-bottom: 1px #ededed solid;
+
     .themeradio{
       position: absolute;
       left: .7rem;
