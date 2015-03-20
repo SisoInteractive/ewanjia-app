@@ -2188,7 +2188,7 @@
 }
 .myEwanjiaOrder .OrderInfo .btn .active {
   background: #e6e6e6;
-  color: #fff;
+  color: #555;
   float: left;
 }
 .myEwanjiaOrder .ProductCont {
@@ -2880,12 +2880,17 @@
 }
 .null {
   text-align: center;
+  padding-top: 1.5rem;
 }
 .null img {
   display: block;
-  padding: 1.5rem 0;
+  padding: 0;
   width: 2.8rem;
   margin: 0 auto;
+}
+.null .null_text {
+  font-size: 0.8444rem;
+  line-height: 1.1rem;
 }
 /* 购物车编辑模块 */
 .editor_m {
