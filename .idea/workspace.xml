@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10dcafac-b937-4aeb-b5ba-9d44b4a280ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/搜索列表null.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/订单详情-审核中.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/订单详情-配送中.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/img/cart-no.png" afterPath="$PROJECT_DIR$/css/img/cart-no.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/img/null.png" afterPath="$PROJECT_DIR$/css/img/null.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/SearchList.less" afterPath="$PROJECT_DIR$/less/SearchList.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/ewanjia.css" afterPath="$PROJECT_DIR$/css/ewanjia.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/productClassify.less" afterPath="$PROJECT_DIR$/less/productClassify.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/我的积分.html" afterPath="$PROJECT_DIR$/我的积分.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/我的评价null.html" afterPath="$PROJECT_DIR$/我的评价null.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/订单详情-以完成.html" afterPath="$PROJECT_DIR$/订单详情-以完成.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/购物车null.html" afterPath="$PROJECT_DIR$/购物车null.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/搜索列表2.html" afterPath="$PROJECT_DIR$/搜索列表2.html" />
     </list>
     <ignored path="ewanjia-app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,18 +29,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pl-null.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/img/pl-null.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="productClassify.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/productClassify.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.892857" vertical-offset="45013" max-vertical-offset="46660">
-              <caret line="2267" column="20" selection-start-line="2267" selection-start-column="20" selection-end-line="2267" selection-end-column="20" />
+            <state vertical-scroll-proportion="-5.314815" vertical-offset="44873" max-vertical-offset="46660">
+              <caret line="2258" column="22" selection-start-line="2258" selection-start-column="22" selection-end-line="2258" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="搜索列表2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/搜索列表2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-28.965517" vertical-offset="1580" max-vertical-offset="4360">
+              <caret line="121" column="22" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="22" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchList.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/less/SearchList.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.61864406" vertical-offset="3988" max-vertical-offset="8660">
+              <caret line="214" column="17" selection-start-line="214" selection-start-column="17" selection-end-line="214" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="type.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/type.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.3148148" vertical-offset="7241" max-vertical-offset="11380">
+              <caret line="371" column="13" selection-start-line="371" selection-start-column="1" selection-end-line="371" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -72,7 +90,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="176" />
-    <option name="y" value="34" />
+    <option name="y" value="29" />
     <option name="width" value="1264" />
     <option name="height" value="866" />
   </component>
@@ -134,6 +152,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ewanjia-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ewanjia-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -153,17 +185,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.我的评价null.html">
-    <configuration default="false" name="订单详情-等待支付.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ewanjia-app/订单详情-等待支付.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="订单详情-审核中.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ewanjia-app/订单详情-审核中.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="搜索列表null.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ewanjia-app/搜索列表null.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -179,14 +201,20 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+    <configuration default="false" name="搜索列表2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ewanjia-app/搜索列表2.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="file://$USER_HOME$/Downloads/87981395911734000/index.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -194,6 +222,10 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -217,19 +249,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.订单详情-等待支付.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.订单详情-审核中.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.搜索列表null.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.购物车null.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.我的评价null.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.搜索列表null.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.购物车null.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.我的评价null.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.搜索列表2.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.我的评价null.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.购物车null.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.搜索列表null.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.订单详情-等待支付.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.订单详情-审核中.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.搜索列表2.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.我的评价null.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.购物车null.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.搜索列表null.html" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +279,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="176" y="34" width="1264" height="866" extended-state="0" />
+    <frame x="176" y="29" width="1264" height="866" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -264,11 +296,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -292,27 +324,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../微信血糖仪3-10/Wx-xty/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16521738" vertical-offset="2605" max-vertical-offset="3700">
-          <caret line="135" column="18" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../微信血糖仪3-10/Wx-xty副本/information.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4029304" vertical-offset="120" max-vertical-offset="1580">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../www/ewanjia-mobile/ewanjia_mobile/我的评价（点击删除）.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68390805" vertical-offset="104" max-vertical-offset="2100">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="54" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../www/ewanjia-mobile/ewanjia_mobile/编辑收货信息.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37728938" vertical-offset="1074" max-vertical-offset="1840">
@@ -437,13 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/SearchList.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7759336" vertical-offset="4466" max-vertical-offset="6380">
-          <caret line="242" column="24" selection-start-line="242" selection-start-column="24" selection-end-line="242" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/img/cartE.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -452,13 +456,6 @@
     <entry file="file://$PROJECT_DIR$/css/img/dd-null.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/搜索列表2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51417005" vertical-offset="2206" max-vertical-offset="2920">
-          <caret line="123" column="30" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="36" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/commoditySearch.less">
@@ -531,13 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/type.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.537037" vertical-offset="10281" max-vertical-offset="11380">
-          <caret line="529" column="40" selection-start-line="529" selection-start-column="40" selection-end-line="529" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/订单追踪.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.862069" vertical-offset="483" max-vertical-offset="1600">
@@ -591,7 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="9757" max-vertical-offset="13700">
           <caret line="498" column="11" selection-start-line="498" selection-start-column="11" selection-end-line="500" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -599,7 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.724138" vertical-offset="880" max-vertical-offset="3880">
           <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -607,15 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.70247936" vertical-offset="720" max-vertical-offset="2740">
           <caret line="53" column="60" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/productClassify.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.892857" vertical-offset="45013" max-vertical-offset="46660">
-          <caret line="2267" column="20" selection-start-line="2267" selection-start-column="20" selection-end-line="2267" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -623,9 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5231388" vertical-offset="580" max-vertical-offset="1300">
           <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -633,7 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4024145" vertical-offset="620" max-vertical-offset="1300">
           <caret line="41" column="76" selection-start-line="41" selection-start-column="76" selection-end-line="41" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -641,15 +616,71 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49586776" vertical-offset="600" max-vertical-offset="1420">
           <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="50" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/img/pl-null.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../www/ewanjia-mobile/ewanjia_mobile/搜索列表2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78512394" vertical-offset="1540" max-vertical-offset="4320">
+          <caret line="96" column="54" selection-start-line="96" selection-start-column="54" selection-end-line="96" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/type.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3148148" vertical-offset="7241" max-vertical-offset="11380">
+          <caret line="371" column="13" selection-start-line="371" selection-start-column="1" selection-end-line="371" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/87981395911734000/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.1034484" vertical-offset="183" max-vertical-offset="680">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/87981395911734000/less/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5084746" vertical-offset="200" max-vertical-offset="1300">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="28" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/搜索列表2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.965517" vertical-offset="1580" max-vertical-offset="4360">
+          <caret line="121" column="22" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/productClassify.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.314815" vertical-offset="44873" max-vertical-offset="46660">
+          <caret line="2258" column="22" selection-start-line="2258" selection-start-column="22" selection-end-line="2258" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/SearchList.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61864406" vertical-offset="3988" max-vertical-offset="8660">
+          <caret line="214" column="17" selection-start-line="214" selection-start-column="17" selection-end-line="214" selection-end-column="17" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

@@ -187,22 +187,63 @@
   }
 }
 
+.filtrat_List{
+  position: relative;
+  background: #fff;
+  z-index: 399;
+  .title{
+    font-size: 0.9333rem;
+    text-align: center;
+    padding: .4rem 0;
+  }
+  li{
+    font-size:0.666rem;
+    padding: .6rem 0.666rem;
+    border-top: 1px solid #e1e1e1;
+
+
+  }
+  .price{
+    color: #e1e1e1;
+    input{
+      width: 4.266rem;
+      text-align: center;
+      border: none;
+      border: 1px solid #e1e1e1;
+    }
+    a{
+      color:#999;
+    }
+
+  }
+  .active{
+    background: url("../css/img/filxuanz.png") no-repeat 95% center;
+    -webkit-background-size: 0.7555rem;
+    background-size: 0.7555rem;
+  }
+
+}
+
 /* filtrateMod 筛选 CSS */
 .filtrateMod{
-  top: 1.555rem;
+  z-index: 9999;
+  position: fixed;
+  width: 90%;
+  height: 100%;
+  top: 0;
+  right: 0;
   .shadeMod{
     position:absolute;
+    top: -.2rem;
     background: #000;
-    height: 200%;
+    height: 400%;
     opacity: .6;
-    width: 100%;
+    left: -12%;
+    width: 112%;
   }
-  position: absolute;
-  z-index: 399;
-  width: 100%;
-  margin-top: .05rem;
   .filtrateHd{
     background: #fff;
+    text-align: center;
     z-index: 399;
     position: relative;
     padding: 0 0.666rem;
@@ -210,26 +251,95 @@
     line-height: 2.177rem;
     font-size: 0.666rem;
     color: #333;
+    p{
+      color: #999;
+    }
   }
   .filtrateBd{
-    background: #fff;
+    background: #ededed;
+    height: 100%;
     z-index: 399;
     position: relative;
-    padding: 0 0.666rem;
+
+    .botoom_btn{
+      width: 6.3777rem;
+      margin: 0 auto;
+      background: #fff;
+      margin-top: .92rem;
+      padding: .1rem 0;
+      text-align: center;
+      border: 1px solid #818181;
+      a{
+        font-size:0.8;
+      }
+    }
     ul{
+      background: #fff;
+      .bor10{
+        border-bottom: 0.222rem solid #ededed;
+
+      }
       li{
+        span{
+          position: relative;
+        }
+
         font-size: 0.666rem;
         color: #333;
-        background: url("../css/img/nogou.png") no-repeat center right ;
+        padding: .3rem 0.6666rem;
         -webkit-background-size: 0.9111rem;
         background-size: 0.9111rem;
-        height: 2.1777rem;
-        line-height: 2.1777rem;
+        .address{
+          color: #e04040;
+        }
+        a{
+          i{
+            padding-left: .3rem;
+            position: relative;
+            top: -.05rem!important;
+          }
+        }
+
+        .iosCheck{
+          position: relative;
+          top: 1px;
+          input {
+            display: none;
+          }
+          i {
+            display: inline-block;
+            cursor: pointer;
+            padding-right: 1.1777rem;
+            transition: all ease 0.2s;
+            -webkit-transition: all ease 0.2s;
+            border-radius: 25px;
+            box-shadow: inset 0 0 1px rgba(0,0,0,.5);
+            &:before {
+              display: block;
+              content: '';
+              width: 1.022rem;
+              height: 1.022rem;
+              border-radius: 1.022rem;
+              background: white;
+              box-shadow: 0 1px 2px rgba(0,0,0,.5);
+            }
+          }
+
+          :checked + i {
+            padding-right: 0;
+            padding-left: 25px;
+            background: #e04040;
+            box-shadow: inset 0 0 1px rgba(0,0,0,.5), inset 0 0 40px #e04040;
+            -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,.5), inset 0 0 40px #e04040;
+          }
+
+        }
+        .checkbox:focus{
+          border: none !important;
+          box-shadow:none!important;
+        }
       }
-      .active{
-        background: url("../css/img/dagou.png") no-repeat center right ;
-        -webkit-background-size: 0.9111rem;
-      }
+
     }
   }
   .filtrateCont{
@@ -312,3 +422,6 @@
   }
 
 }
+
+
+/* 左右Input切换滑块 */
