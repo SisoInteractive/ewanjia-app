@@ -204,7 +204,7 @@
   border: 1px solid #e1e1e1;
 }
 .filtrat_List .price a {
-  color: #e1e1e1;
+  color: #999;
 }
 .filtrat_List .active {
   background: url("../css/img/filxuanz.png") no-repeat 95% center;
@@ -3040,6 +3040,87 @@
 .UserOrder-null P {
   font-size: 0.8rem;
 }
+.Specification_box {
+  position: fixed;
+  top: 0;
+  background: #fff;
+  z-index: 99;
+  padding: 0 0.6666rem;
+  padding-bottom: 3rem;
+}
+.Specification_box .submitOrder {
+  padding-top: .9rem;
+  margin-left: -0.6666rem;
+  margin-right: -0.6666rem;
+  font-size: 0.8444rem !important;
+}
+.Specification_box .submitOrder img {
+  width: .8rem;
+}
+.Specification_box .submitOrder a {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  background: #e14041;
+  padding: .4rem;
+  border-top: 1px solid #e45354;
+  border-bottom: 1px solid #be1b1b;
+  border-left: 1px solid #cb2829;
+  border-right: 1px #cb2829 solid;
+  color: #fff;
+}
+.Specification_box .list {
+  padding-bottom: .3rem;
+  padding-top: .2rem;
+}
+.Specification_box .list .number {
+  border-radius: 0;
+  width: 1.733rem;
+  height: 1.066rem;
+  text-align: center;
+}
+.Specification_box .list .reduce img,
+.Specification_box .list .add img {
+  margin-top: -0.17rem;
+  width: 0.8444rem;
+  vertical-align: middle;
+}
+.Specification_box .list h5 {
+  font-size: 0.5377rem;
+  color: #777;
+}
+.Specification_box .list ul {
+  padding-top: 0.377rem;
+}
+.Specification_box .list ul li {
+  display: inline-block;
+  font-size: 0.6222rem;
+  min-width: 2.7111rem;
+  padding: 0 .2rem;
+  height: 1.2444rem;
+  border: 1px solid #ededed;
+  text-align: center;
+  line-height: 1.2444rem;
+}
+.Specification_box h4 {
+  font-size: 0.7555rem;
+  text-align: center;
+}
+.Specification_box .product {
+  padding-top: 0.7555rem;
+}
+.Specification_box .product img {
+  width: 3.288rem;
+}
+.Specification_box .product .name {
+  line-height: .9rem;
+  padding-left: 3.8rem;
+  font-size: 0.6666rem;
+}
+.Specification_box .product .price {
+  font-size: 0.9333rem;
+  padding-left: 0.4rem;
+}
 
 /* productCont page */
 /* top nav */
@@ -3163,6 +3244,7 @@
   -webkit-background-size: 0.2666rem;
   background-size: 0.2666rem;
   height: 1.1777rem;
+  line-height: 1.1777rem;
   border: 1px solid #ebebeb;
   border-radius: 0;
 }
@@ -3241,7 +3323,8 @@
   display: block;
 }
 .ContFt .ContComment {
-  padding: 0 0.222rem;
+  padding: 0 .6rem;
+  background: #fff;
 }
 .ContFt .ContComment li {
   padding: .3rem 0;
