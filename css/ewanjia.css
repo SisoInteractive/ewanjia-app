@@ -398,6 +398,16 @@
 .up_btn img {
   width: 1.6333rem;
 }
+/* 左右Input切换滑块 */
+.shade {
+  position: fixed;
+  top: -10rem;
+  background: #000;
+  z-index: 999;
+  height: 400%;
+  opacity: .8;
+  width: 100%;
+}
 
 #productSearch {
   position: absolute;
@@ -3059,6 +3069,10 @@
   padding: 0 0.6666rem;
   padding-bottom: 3rem;
 }
+.Specification_box .shadeMod {
+  top: -10rem;
+  position: fixed;
+}
 .Specification_box .submitOrder {
   padding-top: .9rem;
   margin-left: -0.6666rem;
@@ -3102,6 +3116,9 @@
 }
 .Specification_box .list ul {
   padding-top: 0.377rem;
+}
+.Specification_box .list ul .active {
+  border: 1px solid #e14041;
 }
 .Specification_box .list ul li {
   display: inline-block;
