@@ -2943,7 +2943,11 @@
   border-bottom: 1px #ededed solid;
 }
 .Coupons .list dl {
+  overflow: hidden;
   font-size: 0.6666rem;
+}
+.Coupons .list dl span {
+  color: #e14041;
 }
 .Coupons .list dl dt {
   width: 3.2444rem;
@@ -2953,10 +2957,24 @@
 .Coupons .list dl dd {
   float: left;
 }
+.Coupons .list dl dd .number {
+  border-radius: 0;
+  width: 2.1333rem;
+  height: 1.066rem;
+  font-size: 0.6222rem;
+  text-align: center;
+}
+.Coupons .list dl dd .reduce img,
+.Coupons .list dl dd .add img {
+  margin-top: -0.17rem;
+  width: 0.8444rem;
+  vertical-align: middle;
+}
 .Coupons .list .themeradio {
   position: absolute;
   left: .7rem;
-  top: 2rem;
+  top: 50%;
+  margin-top: -0.433rem;
 }
 .Coupons .list p {
   line-height: .8rem;
@@ -3062,6 +3080,7 @@
   font-size: 0.8rem;
 }
 .Specification_box {
+  width: 100%;
   position: fixed;
   bottom: 0;
   background: #fff;
