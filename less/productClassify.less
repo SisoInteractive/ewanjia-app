@@ -2196,7 +2196,17 @@
     position: relative;
     padding: .9rem @unit30 .5rem 2.111rem;
     border-bottom: 1px #ededed solid;
-
+    dl{
+      font-size: @unit30;
+      dt{
+        width: 3.2444rem;
+        float: left;
+        text-align: justify;
+      }
+      dd{
+        float: left;
+      }
+    }
     .themeradio{
       position: absolute;
       left: .7rem;
@@ -2328,7 +2338,7 @@
 
 .Specification_box{
   position: fixed;
-  top: 0;
+  bottom:0;
   .submitOrder{
     padding-top: .9rem;
     margin-left: -@unit30;
@@ -2351,7 +2361,7 @@
     }
   }
   background: #fff;
-  z-index: 99;
+  z-index: 99999;
   padding: 0 @unit30;
   padding-bottom: 3rem;
   .list{

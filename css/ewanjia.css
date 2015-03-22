@@ -2932,6 +2932,17 @@
   padding: 0.9rem 0.6666rem 0.5rem 2.111rem;
   border-bottom: 1px #ededed solid;
 }
+.Coupons .list dl {
+  font-size: 0.6666rem;
+}
+.Coupons .list dl dt {
+  width: 3.2444rem;
+  float: left;
+  text-align: justify;
+}
+.Coupons .list dl dd {
+  float: left;
+}
 .Coupons .list .themeradio {
   position: absolute;
   left: .7rem;
@@ -3042,9 +3053,9 @@
 }
 .Specification_box {
   position: fixed;
-  top: 0;
+  bottom: 0;
   background: #fff;
-  z-index: 99;
+  z-index: 99999;
   padding: 0 0.6666rem;
   padding-bottom: 3rem;
 }
