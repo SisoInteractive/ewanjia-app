@@ -545,7 +545,7 @@
 }
 .W-nav .fl-l {
   position: relative;
-  z-index: 999;
+  z-index: 3;
 }
 .W-nav .Logo {
   width: 4.1rem;
@@ -571,6 +571,8 @@
   width: 2.6444rem;
   border-left: 1px solid #ebebeb;
   height: 2.1333rem;
+  position: relative;
+  z-index: 2;
   text-align: center;
 }
 .W-nav .nav_R img {
